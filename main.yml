@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+    - master
+    - release/*
+on:
+  pull_request:
+    branches:
+    - master
